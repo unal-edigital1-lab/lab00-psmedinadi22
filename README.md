@@ -5,6 +5,5 @@ En esta plantilla debe adicionar la documentación del laboratorio
 
 Paula Sofía Medina Díaz
 
-OK PROFE 
 
 
