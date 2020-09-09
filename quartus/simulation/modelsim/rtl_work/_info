@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/UECCI/Downloads/lab00-psmedinadi22/quartus/simulation/modelsim
+vsum1bcc
+Z1 !s110 1599673773
+!i10b 1
+!s100 i@PSlJe[>F5XT?ODjheAV1
+IeL^2F;c5AAAQKZU1E6BV_0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1599673202
+8C:/Users/UECCI/Downloads/lab00-psmedinadi22/src/sum1bcc.v
+FC:/Users/UECCI/Downloads/lab00-psmedinadi22/src/sum1bcc.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1599673773.000000
+!s107 C:/Users/UECCI/Downloads/lab00-psmedinadi22/src/sum1bcc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/UECCI/Downloads/lab00-psmedinadi22/src|C:/Users/UECCI/Downloads/lab00-psmedinadi22/src/sum1bcc.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/UECCI/Downloads/lab00-psmedinadi22/src
+Z6 tCvgOpt 0
+vsum1bcc_TB
+R1
+!i10b 1
+!s100 72QRABH0EFci:ZQ]9HMif1
+I31aIMiaWdo`:d7I`fN32g0
+R2
+R0
+w1599672903
+8C:/Users/UECCI/Downloads/lab00-psmedinadi22/quartus/../src/sum1bcc_TB.v
+FC:/Users/UECCI/Downloads/lab00-psmedinadi22/quartus/../src/sum1bcc_TB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/UECCI/Downloads/lab00-psmedinadi22/quartus/../src/sum1bcc_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/UECCI/Downloads/lab00-psmedinadi22/quartus/../src|C:/Users/UECCI/Downloads/lab00-psmedinadi22/quartus/../src/sum1bcc_TB.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/UECCI/Downloads/lab00-psmedinadi22/quartus/../src
+R6
+nsum1bcc_@t@b
