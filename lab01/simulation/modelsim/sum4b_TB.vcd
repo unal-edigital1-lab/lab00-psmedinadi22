@@ -1,0 +1,13 @@
+$date
+	Tue Sep 29 14:15:56 2020
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+$enddefinitions $end
+#0
+$dumpvars
+$end

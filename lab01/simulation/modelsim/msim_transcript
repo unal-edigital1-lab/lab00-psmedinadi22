@@ -67,3 +67,15 @@ vsim work.sum4b_TB
 # Loading work.sum1bcc
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Ci'. The port definition is at: /home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum1bcc.v(22).
 #    Time: 0 ps  Iteration: 0  Instance: /sum4b_TB/uut/s0 File: /home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum4b.v Line: 30
+add wave sim:/sum4b_TB/*
+run
+# ** Error: (vsim-PLI-3536) $dumpvars() : The level argument (-1) must not be negative.    : /home/paula/semestre/Digital/lab00-psmedinadi22/lab01/../src/solucion/sum4b_TB.v(34)
+#    Time: 0 ps  Iteration: 0  Instance: /sum4b_TB
+force -freeze sim:/sum4b_TB/yi 0011 0
+run
+force -freeze sim:/sum4b_TB/yi 0011 0
+force -freeze sim:/sum4b_TB/yi 0011 0
+force -freeze sim:/sum4b_TB/xi 0111 0
+run
+# End time: 14:24:37 on Sep 29,2020, Elapsed time: 0:17:05
+# Errors: 2, Warnings: 1
