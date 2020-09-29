@@ -1,0 +1,69 @@
+# ERROR: No extended dataflow license exists
+# do lab01-s4b_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/paula/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion {/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum1bcc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:07:31 on Sep 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion" /home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum1bcc.v 
+# -- Compiling module sum1bcc
+# 
+# Top level modules:
+# 	sum1bcc
+# End time: 14:07:32 on Sep 29,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion {/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum4b.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:07:32 on Sep 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion" /home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum4b.v 
+# -- Compiling module sum4b
+# 
+# Top level modules:
+# 	sum4b
+# End time: 14:07:32 on Sep 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/paula/semestre/Digital/lab00-psmedinadi22/lab01/../src/solucion {/home/paula/semestre/Digital/lab00-psmedinadi22/lab01/../src/solucion/sum4b_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:07:32 on Sep 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/paula/semestre/Digital/lab00-psmedinadi22/lab01/../src/solucion" /home/paula/semestre/Digital/lab00-psmedinadi22/lab01/../src/solucion/sum4b_TB.v 
+# -- Compiling module sum4b_TB
+# 
+# Top level modules:
+# 	sum4b_TB
+# End time: 14:07:32 on Sep 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" TB 
+# Start time: 14:07:32 on Sep 29,2020
+# ** Error: (vsim-3170) Could not find 'TB'.
+#         Searched libraries:
+#             /home/paula/intelFPGA/20.1/modelsim_ase/altera/verilog/altera
+#             /home/paula/intelFPGA/20.1/modelsim_ase/altera/verilog/220model
+#             /home/paula/intelFPGA/20.1/modelsim_ase/altera/verilog/sgate
+#             /home/paula/intelFPGA/20.1/modelsim_ase/altera/verilog/altera_mf
+#             /home/paula/intelFPGA/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             /home/paula/intelFPGA/20.1/modelsim_ase/altera/verilog/cycloneive
+#             /home/paula/semestre/Digital/lab00-psmedinadi22/lab01/simulation/modelsim/rtl_work
+#             /home/paula/semestre/Digital/lab00-psmedinadi22/lab01/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./lab01-s4b_run_msim_rtl_verilog.do PAUSED at line 13
+vsim work.sum4b_TB
+# vsim work.sum4b_TB 
+# Start time: 14:07:32 on Sep 29,2020
+# Loading work.sum4b_TB
+# Loading work.sum4b
+# Loading work.sum1bcc
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Ci'. The port definition is at: /home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum1bcc.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /sum4b_TB/uut/s0 File: /home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum4b.v Line: 30

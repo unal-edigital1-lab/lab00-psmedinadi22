@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/paula/semestre/Digital/lab00-psmedinadi22/lab01/simulation/modelsim
+vsum1bcc
+Z1 !s110 1601406452
+!i10b 1
+!s100 <QhOiYBQTVBgZ:HW;GVkE0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6<?oZVmzk1JHRC4]NQkCX2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1599669923
+8/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum1bcc.v
+F/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum1bcc.v
+!i122 0
+L0 22 16
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1601406451.000000
+!s107 /home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum1bcc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion|/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum1bcc.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion
+Z8 tCvgOpt 0
+vsum4b
+R1
+!i10b 1
+!s100 @igk]2m9[<BUPBV1m9T@20
+R2
+I2;J1T77n:EO;QoldAG@z=1
+R3
+R0
+R4
+8/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum4b.v
+F/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum4b.v
+!i122 1
+L0 21 17
+R5
+r1
+!s85 0
+31
+Z9 !s108 1601406452.000000
+!s107 /home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum4b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion|/home/paula/semestre/Digital/lab00-psmedinadi22/src/solucion/sum4b.v|
+!i113 1
+R6
+R7
+R8
+vsum4b_TB
+R1
+!i10b 1
+!s100 hKc7JPQf^Jj6R?ckCkenO1
+R2
+I?hOAI<3UgJP9zWRk`2K:10
+R3
+R0
+R4
+8/home/paula/semestre/Digital/lab00-psmedinadi22/lab01/../src/solucion/sum4b_TB.v
+F/home/paula/semestre/Digital/lab00-psmedinadi22/lab01/../src/solucion/sum4b_TB.v
+!i122 2
+L0 3 36
+R5
+r1
+!s85 0
+31
+R9
+!s107 /home/paula/semestre/Digital/lab00-psmedinadi22/lab01/../src/solucion/sum4b_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/paula/semestre/Digital/lab00-psmedinadi22/lab01/../src/solucion|/home/paula/semestre/Digital/lab00-psmedinadi22/lab01/../src/solucion/sum4b_TB.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/paula/semestre/Digital/lab00-psmedinadi22/lab01/../src/solucion
+R8
+nsum4b_@t@b
