@@ -78,7 +78,7 @@ Luego se inicializan las entradas "xi" y "yi" y se crea un txt para visualizar l
 
 Resultados
 -------------------
-
+Finalmene se visualizo la simulación en Modelsim y se pudo comprobar que la simulación esta bien
 
 ![Imagen1](https://github.com/unal-edigital1-lab/lab00-psmedinadi22/blob/master/imagen.png)
 
